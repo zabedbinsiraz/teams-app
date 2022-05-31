@@ -9,19 +9,6 @@ import Analytics from "./pages/Analytics";
 import Order from "./pages/Order";
 import Saved from "./pages/Saved";
 import Navbar from "./components/Navbar";
-import { initializeApp } from "firebase/app";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyC5yA5Kn1TAQubvYW5MwG_T-g0XMAzORf4",
-  authDomain: "teams-app-d4a97.firebaseapp.com",
-  projectId: "teams-app-d4a97",
-  storageBucket: "teams-app-d4a97.appspot.com",
-  messagingSenderId: "121957100683",
-  appId: "1:121957100683:web:262502501de0000acf388e"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
 
 function App() {
   return (
